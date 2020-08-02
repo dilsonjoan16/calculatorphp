@@ -1,0 +1,93 @@
+.fondo{
+    background-color: rgb(143, 247, 139);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+width: 300px;
+padding: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background:rgb(2, 165, 70);
+text-align: center;
+border-radius: 80px;
+}
+.titulo{
+    text-align: center;
+    padding: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.box h2{
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container{
+    padding: 2px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.box input[type="number"],.box input[type="number"],.box input[type="text"]{
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 100, 13);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(2, 165, 70);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="number"]:focus,.box input[type="number"]:focus,.box input[type="text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 100, 13);
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+    color: black;
+}
+.box input[type="reset"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 100, 13);
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="reset"]:hover{
+    background: #2ecc71;
+    color: black;
+}
+.box output[type="number"]{
+    color: white;
+    font-size: 30px;
+}
